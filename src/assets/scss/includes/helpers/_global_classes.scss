@@ -1,0 +1,18 @@
+// Display classes
+.d-block {
+  display: block !important;
+  @extend .animated;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.highlight {
+  &.bg-blue {
+    background-color: $dodger-blue;
+  }
+  &.color-blue {
+    color: $dodger-blue;
+  }
+}
